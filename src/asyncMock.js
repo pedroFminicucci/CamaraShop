@@ -2,26 +2,26 @@ const products =[
     {
         id:"1",
         name:"Nikon D3500",
-        price:1000,
+        price:582.880,
         img:"https://www.nikon.com.ar/uploads/camaras/large/20230410-043740_1.png",
         stock: 50,
-        description:"",
+        description:"Apertura máxima del lente: f/3.5-5.6 - Lentes incluidos: Nikkor AF-P DX 18-55mm f/3.5-5.6G VR",
 
     },
     {
         id:"2",
-        name:"nikfon",
-        price:1000,
-        img:"https://http2.mlstatic.com/D_NQ_NP_762423-MLA31352533217_072019-O.webp",
+        name:"Canon EOS M50",
+        price:459.999,
+        img:"https://http2.mlstatic.com/D_NQ_NP_636123-MLA46518818047_062021-O.webp",
         stock: 50,
         description:"",
 
     },
     {
         id:"3",
-        name:"nikdon",
-        price:1000,
-        img:"https://d2r9epyceweg5n.cloudfront.net/stores/001/021/061/products/prod-2811-f032e57c7c6f34838b15631967448703-640-0.jpg",
+        name:"Sony Alpha 7S III",
+        price: 1.719999,
+        img:"https://http2.mlstatic.com/D_NQ_NP_778917-MLA45061832342_032021-O.webp",
         stock: 50,
         description:"",
 
