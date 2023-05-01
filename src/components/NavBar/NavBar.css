@@ -1,0 +1,14 @@
+.container{ 
+    background-color: rgb(163, 248, 160);
+}
+
+.navBar{
+    /* display: flex; */
+}
+
+div ul a{
+    text-decoration: none;
+    color: black;
+    background-color: aquamarine;
+    border-radius: 20px;
+}
