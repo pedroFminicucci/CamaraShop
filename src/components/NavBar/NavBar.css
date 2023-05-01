@@ -1,14 +1,18 @@
 .container{ 
-    background-color: rgb(163, 248, 160);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 50px;
+    box-shadow: 0 1px 8px #ddd;
 }
 
-.navBar{
-    /* display: flex; */
+.container ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
 }
 
-div ul a{
+
+a {
     text-decoration: none;
-    color: black;
-    background-color: aquamarine;
-    border-radius: 20px;
 }
