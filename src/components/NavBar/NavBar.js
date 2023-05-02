@@ -1,7 +1,7 @@
 import CartWidget from "../CartWidget/CartWidget"  
 import "./NavBar.css"
-import {NavLink} from "react-router-dom"
-import {Link} from "react-router-dom"
+import {NavLink,Link} from "react-router-dom"
+
 
 const NavBar = () => {
     return(
@@ -10,9 +10,9 @@ const NavBar = () => {
             <h3>Camarashop</h3>
             </Link>
             <div>
-            <NavLink to ={`/category/celular`} className={({isActive})=> isActive ? 'ActiveOption' : `Option`}> Celular</NavLink>
-            <NavLink to ={`/category/tablet`} className={({isActive})=> isActive ? 'ActiveOption' : `Option`} >Tablet</NavLink>
-            <NavLink to ={`/category/notebook`} className={({isActive})=> isActive ? 'ActiveOption' : `Option`}>Notebook</NavLink>
+            <NavLink to ={`/category/Nikon`} className={({isActive})=> isActive ? 'ActiveOption' : `Option`}> Nikon</NavLink>
+            <NavLink to ={`/category/Canon`} className={({isActive})=> isActive ? 'ActiveOption' : `Option`} >Canon</NavLink>
+            <NavLink to ={`/category/Sony`} className={({isActive})=> isActive ? 'ActiveOption' : `Option`}>Sony</NavLink>
             </div>
             <CartWidget/>
         </nav>

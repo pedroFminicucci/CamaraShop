@@ -3,7 +3,7 @@ const products =[
         id:"1",
         name:"Nikon D3500",
         price:582.880,
-        category:"notebook",
+        category:"Nikon",
         img:"https://www.nikon.com.ar/uploads/camaras/large/20230410-043740_1.png",
         stock: 50,
         description:"Apertura máxima del lente: f/3.5-5.6 - Lentes incluidos: Nikkor AF-P DX 18-55mm f/3.5-5.6G VR",
@@ -13,7 +13,7 @@ const products =[
         id:"2",
         name:"Canon EOS M50",
         price:459.999,
-        category:"celular",
+        category:"Canon",
         img:"https://http2.mlstatic.com/D_NQ_NP_636123-MLA46518818047_062021-O.webp",
         stock: 50,
         description:"",
@@ -23,7 +23,7 @@ const products =[
         id:"3",
         name:"Sony Alpha 7S III",
         price: 1.719999,
-        category:"tablet",
+        category:"Sony",
         img:"https://http2.mlstatic.com/D_NQ_NP_778917-MLA45061832342_032021-O.webp",
         stock: 50,
         description:"",
@@ -45,7 +45,7 @@ export const getProductsById = (productId)=>{
     return new Promise((resolve)=>{
 
         setTimeout(()=>{
-            resolve(products.find(prod => prod.id === productId))
+            resolve(products.filter(prod => prod.id === productId))
         },500)
     })
 }
@@ -54,7 +54,7 @@ export const getProductsByCategory = (productCategory)=>{
     return new Promise((resolve)=>{
 
         setTimeout(()=>{
-            resolve(products.find(prod => prod.category === productCategory))
+            resolve(products.filter(prod => prod.category === productCategory))
         },500)
     })
 }
